@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.slider-container {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+.slider {
+  height: 700px;
+  width: 100%;
+  animation: show 2s ease-in-out;
+}
+.slider-image {
+  width: 96%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+@keyframes show {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
